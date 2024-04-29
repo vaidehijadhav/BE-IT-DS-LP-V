@@ -1,0 +1,8 @@
+module ReverseModule
+{
+    interface Reverse
+    {
+        string reverse_string(in string str);
+        boolean is_prime(in long number);
+    };
+};
